@@ -5,14 +5,14 @@ workflows:
     instance_type: mac_mini_m2
 
     integrations:
-      app_store_connect: YOUR_APP_STORE_CONNECT_KEY_NAME
+      app_store_connect: ibrahim_key
 
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.example.codemagic
+        bundle_identifier: com.ibrahim.fruit_hub
       vars:
-        APP_STORE_APPLE_ID: 1234567890
+        APP_STORE_APPLE_ID: 6743219876
       flutter: stable
       xcode: latest
       cocoapods: default
@@ -46,7 +46,7 @@ workflows:
     publishing:
       email:
         recipients:
-          - your_email@example.com
+          - yourname@gmail.com
         notify:
           success: true
           failure: true
